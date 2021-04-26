@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require_once "dependencias.php"; ?>
-    <title>Clientes</title>
+    <title>Categorias</title>
 </head>
 <body>
     <div class="container">
         <?php require_once "menu.php"; ?>
         <div class="jumbotron">
-            <strong><h1 align="left">Gestión Clientes</h1></strong><br>
+            <strong><h1 align="left">Gestión Categorias</h1></strong><br>
             <button type="button" class="btn btn-success">
-                <span class="fas fa-user-plus"></span> Agregar
+                <span class="fas fa-plus"></span> Agregar
             </button>
             <hr class="my-4">
             
