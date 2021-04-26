@@ -20,7 +20,7 @@
                 <div class="col-sm-5">
                     <div class="card">
                         <div class="card-body">
-                        <img src="public/img/autor1.jpg" height="350" width="380"alt="Responsive image">
+                        <img src="public/img/autor1.jpg" height="350" width="375"alt="Responsive image">
                         <table align="center">
                             <tr>
                                 <th style="color:green;">Desarrollo Back-End: Carlos Adrián Mateos F.</th>
@@ -33,7 +33,7 @@
                 <div class="col-sm-5">
                     <div class="card">
                         <div class="card-body">
-                        foto de mi amor jocy.
+                        <img src="public/img/autor2.jpeg" height="350" width="375"alt="Responsive image">
                         <table align="center">
                             <tr>
                                 <th style="color:DeepPink">Desarrollo Front-End: Jocelyn Berra Ruíz.</th>

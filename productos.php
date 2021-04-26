@@ -12,16 +12,23 @@
     <div class="container">
         <?php require_once "menu.php"; ?>
         <div class="jumbotron">
-            <strong><h1 align="left">Gestión Productos</h1></strong><br>
-            <button type="button" class="btn btn-success">
-                <span class="fas fa-plus"></span> Agregar
-            </button>
-            <hr class="my-4">
+            <strong><h1 align="center">Gestión Productos</h1></strong><br>
+
+            <hr class="my-2">
             
-            <hr class="my-4">
+            <p align="right">
+                <button type="button" class="btn btn-primary"><span class="fas fa-user-plus"></span> Agregar
+                </button>
+            </p>
+            
+            <div id="tablaProductos"></div>
+
+            <hr class="my-3">
 
             <p align="center">CRM - 2021®</p>
         </div>
     </div>
+
+    <script src="public/js/productos.js"></script>
 </body>
 </html>
