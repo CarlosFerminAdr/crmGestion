@@ -17,7 +17,8 @@
             <hr class="my-2">
             
             <p align="right">
-                <button type="button" class="btn btn-primary"><span class="fas fa-user-plus"></span> Agregar
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalAgregar">
+                <span class="fas fa-user-plus"></span> Agregar
                 </button>
             </p>
             
@@ -27,6 +28,10 @@
 
             <p align="center">CRM - 2021®</p>
         </div>
+        <?php 
+            require_once "vistas/categorias/modalAgregar.php";
+            require_once "vistas/categorias/modalEditar.php";
+        ?>
     </div>
 
     <script src="public/js/categorias.js"></script>

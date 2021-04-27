@@ -17,13 +17,13 @@
                         <th>Categoria</th>
                         <th>Descripción</th>
                         <th>
-                            <span class="btn btn-success btn-sm">
-                                <span class="fas fa-pencil-alt"></span>
+                            <span class="btn btn-warning btn-sm" data-toggle="modal" data-target="#modalEditar">
+                                <span class="fas fa-pencil-alt" style="color:black;"></span>
                             </span>
                         </th>
                         <th>
-                            <span class="btn btn-danger btn-sm">
-                                <span class="fas fa-trash-alt"></span>
+                            <span class="btn btn-danger btn-sm" onclick="eliminarCategoria()">
+                                <span class="fas fa-trash-alt" style="color:black;"></span>
                             </span>
                         </th>
                     </tr>
